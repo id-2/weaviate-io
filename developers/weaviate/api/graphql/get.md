@@ -13,10 +13,6 @@ import TryEduDemo from '/_includes/try-on-edu-demo.mdx';
 
 ## Overview
 
-:::info Related pages
-- [How-to: Search: Basics](../../search/basics.md)
-:::
-
 The `Get{}` function is for retrieving individual objects.
 
 ## Syntax and query structure
@@ -194,8 +190,6 @@ Property | Description |
 
 They are returned through the `_additional` properties in the response.
 
-For further information see:
-
 :::tip Read more
 - [References: GraphQL: Additional properties](./additional-properties.md)
 - [How-to search: Specify fetched properties](../../search/basics.md#specify-the-fetched-properties)
@@ -215,8 +209,6 @@ The following search operators are available.
 | `hybrid` | Combine vector and BM25 search results |   *none* | [Learn more](../graphql/search-operators.md#hybrid) |
 | `bm25`   | Keyword search with BM25F ranking  | *none* | [Learn more](../graphql/search-operators.md#bm25) |
 
-For further information see:
-
 :::tip Read more
 - [References: GraphQL: Search operators](./search-operators.md)
 - [How-to search: Similarity search](../../search/similarity.md)
@@ -229,8 +221,6 @@ For further information see:
 
 `Get{}` queries can be combined with a conditional filter.
 
-For further information see:
-
 :::tip Read more
 - [References: GraphQL: Conditional Filters](./filters.md)
 - [How-to search: Filters](../../search/filters.md)
@@ -241,12 +231,12 @@ For further information see:
 
 `Get{}` queries can be combined with additional operators such as `limit`, `offset`, `autocut`, `after` or `sort`.
 
-For further information see:
-
 :::tip Read more
 - [References: GraphQL: Additional Operators](./additional-operators.md)
 :::
 
+## Related pages
+[How-to: Search: Basics](../../search/basics.md)
 
 import DocsMoreResources from '/_includes/more-resources-docs.md';
 

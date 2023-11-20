@@ -12,11 +12,9 @@ import UserTestCode from '!!raw-loader!./_includes/user_test.py';
 import PythonCode from '!!raw-loader!/_includes/code/client-libraries/python_v4.py';
 
 :::caution Beta version
-The Python client is currently in beta, and we want to hear from you.
-
-You can test the new client locally, but it is not available on Weaviate Cloud Services (WCS) yet.
-
-If you notice any bugs, or have any feedback, please let us know on [this forum thread](https://forum.weaviate.io/t/python-v4-client-feedback-megathread/892)
+The Python v4 client is currently in beta release. It is not available on Weaviate Cloud Services (WCS) yet.
+<br />
+You can test the new client locally. We want to hear your feedback. If you notice any bugs, or have other feedback, please let us know on [this forum thread](https://forum.weaviate.io/t/python-v4-client-feedback-megathread/892)
 :::
 
 ## Overview
